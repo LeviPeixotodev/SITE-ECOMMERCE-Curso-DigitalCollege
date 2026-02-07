@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  color: black;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    display: flex;
+    gap: 4.36px;
+
+    span {
+      font-size: 19.85px;
+      font-weight: 600;
+      color: #c92071;
+    }
+  }
+}
+
+
+main {
+  background: linear-gradient(#B5B6F2, #EFEFFF);
+  padding: 63px 30px 82px;
+
+  form {
+    background-color: #FFF;
+    border-radius: 4px;
+    padding: 30px;
+    width: 315px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .title-box {
+      text-align: center;
+
+      h1 {
+        font-size: 22px;
+        line-height: 34px;
+        letter-spacing: 2px;
+        color: #1F1F1F;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.25px;
+        color: #474747;
+
+        a {
+          text-decoration: underline;
+          color: inherit;
+        }
+      }
+    }
+
+    .input-box {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+
+      label {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 0.75px;
+        color: #474747;
+      }
+
+      input {
+        height: 60px;
+        background-color: #4747470A;
+        border-radius: 8px;
+        outline-color: #c92071;
+        padding: 0 12px;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.75px;
+        
+        &::placeholder {
+          color: #66666699;
+        }
+      }
+    }
+
+    button {
+      height: 48px;
+      background-color: #C92071;
+      border-radius: 8px;
+      font-weight: 700;
+      color: #F5F5F5;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.75px;
+
+      &:active {
+        background-color: #991956;
+      }
+    }
+
+    .else-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+
+      p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0.25px;
+        color: #474747;
+      }
+
+      ul {
+        display: flex;
+        gap: 24px;
+
+        li {
+          a {
+            display: block;
+            height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (width >= 1440px) {
+  main {
+    padding-left: 100px;
+
+    form {
+      margin: 0;
+      width: 500px;
+
+      .title-box {
+        text-align: start;
+
+        h1 {
+          font-size: 32px;
+          margin-bottom: 10px;
+        }
+
+        p {
+          font-size: 18px;
+        }
+      }
+
+      .else-box {
+        flex-direction: row;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+/*Largura
+375px
+
+Altura
+805px
+
+Superior
+664px
+*/
+footer {
+  height: 805px;
+  width: 375px;
+  background-color: #1F1F1F;
+  padding: 40px 30px; 
+}
+
+footer .sessao-logo {
+  display: flex; 
+  align-items: center; 
+  gap: 8px; 
+  margin-bottom: 30px; 
+}
+
+footer .sessao-logo a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+footer .sessao-logo img {
+  width: 33px; 
+  height: 33px;
+   filter: brightness(0) invert(1);
+}
+
+footer .sessao-logo span {
+  font-size: 22.85px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+footer p {
+  color: #EFEFFF;
+  font-size: 16px;
+}
+.logos{
+  filter: brightness(0) invert(1);
+
+}
+.logos img {
+  width: 18px; 
+  height: 18px;
+  filter: brightness(0) invert(1); 
+  margin: 16px;
+  margin-top: 20px;
+}
