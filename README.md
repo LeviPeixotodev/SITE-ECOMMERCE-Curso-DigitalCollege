@@ -22,6 +22,7 @@ O foco principal deste projeto é a aplicação prática de conceitos fundamenta
 * **HTML5:** Estruturação semântica do conteúdo para melhor acessibilidade e SEO.
 * **CSS3:** Estilização avançada com foco em layout e design responsivo.
 * **Figma:** Utilizado como base para a fidelidade visual e extração de ativos.
+* **Javascript:** Usado DOM para a interatividade da senha e dos modos de cores(darkmode e padrão).
 
 ## Competências Aplicadas
 
