@@ -1,6 +1,6 @@
-### Digital Store
+# Digital Store
 
-# Plataforma de e-commerce responsiva desenvolvida como projeto prático durante o curso de Desenvolvimento Full Stack na Digital College.
+## Plataforma de e-commerce responsiva desenvolvida como projeto prático durante o curso de Desenvolvimento Full Stack na Digital College.
 
 
 ## 📸 Preview do Projeto
@@ -34,7 +34,7 @@ O foco principal deste projeto é a aplicação prática de conceitos fundamenta
 
 ## 📂 Como Executar o Projeto
 # Opçao A
-Abrir no github sites:
+Abrir no github sites: [clicando aqui](https://levipeixotodev.github.io/SITE-ECOMMERCE-Curso-DigitalCollege/)
 
 # Opçao B
 1. Clone o repositório
@@ -42,5 +42,5 @@ Abrir no github sites:
 
 - GitHub: [@LeviPeixotodev](https://github.com/LeviPeixotodev)
 - LinkedIn: [@LeviPeixoto](https://www.linkedin.com/in/levi-peixoto/) 
-- Email: levipeixoto.dev@gmail.com 
+- Email: levipeixoto.dev@gmail.com
 
