@@ -2,6 +2,17 @@
 
 Projeto desenvolvido durante o curso de Programador Full Stack da Digital College. Trata-se do desenvolvimento do front-end de uma plataforma de e-commerce voltada para a venda de calçados.
 
+## 📸 Preview do Projeto
+
+### 💻 Desktop
+![Página Inicial](./img/pagina-inicial.png)
+![Página Inicial Dark](./img/pagina-inicial-darkmode.png)
+
+### 📱 Mobile
+![Home Mobile](./img/home-mobile.png)
+![Home Mobile Dark](./img/home-mobile-darkmode.png)
+
+
 ## Objetivo
 
 O foco principal deste projeto é a aplicação prática de conceitos fundamentais de desenvolvimento web, garantindo que a interface seja fiel ao protótipo e ofereça uma boa experiência de navegação ao usuário.
@@ -18,3 +29,4 @@ O foco principal deste projeto é a aplicação prática de conceitos fundamenta
 * **Responsividade:** Adaptação da interface para diferentes tamanhos de tela e dispositivos.
 * **Versionamento:** Uso do Git para controle de alterações e histórico do projeto.
 * **Manipulação de Ativos:** Organização e otimização de imagens e ícones em formato SVG e PNG.
+
