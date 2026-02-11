@@ -1,6 +1,7 @@
-# Digital Store
+### Digital Store
 
-Projeto desenvolvido durante o curso de Programador Full Stack da Digital College. Trata-se do desenvolvimento do front-end de uma plataforma de e-commerce voltada para a venda de calçados.
+# Plataforma de e-commerce responsiva desenvolvida como projeto prático durante o curso de Desenvolvimento Full Stack na Digital College.
+
 
 ## 📸 Preview do Projeto
 
@@ -30,4 +31,10 @@ O foco principal deste projeto é a aplicação prática de conceitos fundamenta
 * **Responsividade:** Adaptação da interface para diferentes tamanhos de tela e dispositivos.
 * **Versionamento:** Uso do Git para controle de alterações e histórico do projeto.
 * **Manipulação de Ativos:** Organização e otimização de imagens e ícones em formato SVG e PNG.
+
+## 📂 Como Executar o Projeto
+
+1. Clone o repositório
+2. Abra o arquivo index.html no navegador
+
 
