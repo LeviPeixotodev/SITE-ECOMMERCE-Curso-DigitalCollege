@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,23 +12,36 @@
         <img src="./logo.svg" alt="digital store logo" />
         <span>Digital Store</span>
       </a>
+      <div class="botaodark">
+      <button id="botaodarkmode">☀️/🌙</button>
+      </div>
     </header>
 
     <main>
       <form>
-        <div class="title-box">
+        <div class="caixatitulo">
           <h1>Crie sua conta</h1>
           <p>Já possui uma conta? Entre <a href="#">aqui</a>.</p>
         </div>
 
-        <div class="input-box">
+        <div class="caixaemail">
           <label>Email *</label>
           <input type="email" placeholder="Insira seu email" />
         </div>
 
+        <div class="caixasenha">
+          <label>Senha *</label>
+          <div class="botaosenha">
+            <input type="password" placeholder="Insira sua senha" id="inputpasswordjs" />
+            <button id="botaodasenhajs" type="button">
+              <img src="naoversenha.svg" alt="" id="olho" />
+            </button>
+          </div>
+        </div>
+
         <button class="criarconta">Criar Conta</button>
 
-        <div class="else-box">
+        <div class="caixasocial">
           <p>Ou faça login com</p>
           <ul>
             <li>
@@ -52,68 +65,74 @@
     </main>
 
     <footer>
-      <div class="sessao-logo">
-        <a href="#">
-          <img src="./logo.svg" alt="digital store logo" />
-          <span>Digital Store</span>
-        </a>
-      </div>
+      <div class="containerfooter">
+        <div class="conteudofooter">
+          <div class="colunafooter sobrefooter">
+            <div class="logofooter">
+              <a href="#">
+                <img src="./logo.svg" alt="digital store logo" />
+                <span>Digital Store</span>
+              </a>
+            </div>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <p>Sed do eiusmod tempor incididunt ut labore et dolore.</p>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-      <p>Sed do eiusmod tempor incididunt ut labore et dolore.</p>
-
-      <div class="logos">
-        <ul class="listasvg">
-          <li>
-            <a href="#">
-              <img src="gmail.svg" alt="" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="facebook-svgrepo-com.svg" alt="" />
-            </a>
-          </li>
-          <li class="insta">
-            <a href="#">
-              <img src="instalogo.png" alt="" />
-            </a>
-          </li>
-        </ul>
-
-        <div class="tudo">
-          <div class="info">
-            <span>Informações</span>
-          </div>
-          <ul class="infofilhos">
-            <a href="#"><li>Sobre drip store</li></a>
-            <a href="#"><li>Segurança</li></a>
-            <a href="#"><li>Wishlist</li></a>
-            <a href="#"><li>Blog</li></a>
-            <a href="#"><li>Trabalhe conosco</li></a>
-            <a href="#"><li>Meus pedidos</li></a>
-          </ul>
-
-          <div class="TUDOCATEGORIA">
-            <span class="CategoriasTitulo">Categorias</span>
-            <ul class="categoriafilhos">
-              <a href="#"><li>Camisetas</li></a>
-              <a href="#"><li>Calças</li></a>
-              <a href="#"><li>Bonés</li></a>
-              <a href="#"><li>Blog</li></a>
-              <a href="#"><li>Headphones</li></a>
-              <a href="#"><li>Tênis</li></a>
+            <ul class="redesfooter">
+              <li>
+                <a href="#">
+                  <img src="gmail.svg" alt="Gmail" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="facebook-svgrepo-com.svg" alt="Facebook" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="instalogo.png" alt="Instagram" />
+                </a>
+              </li>
             </ul>
           </div>
+
+          <div class="colunafooter infofooter">
+            <h3>Informação</h3>
+            <ul>
+              <li><a href="#">Sobre drip store</a></li>
+              <li><a href="#">Segurança</a></li>
+              <li><a href="#">Wishlist</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Trabalhe conosco</a></li>
+              <li><a href="#">Meus pedidos</a></li>
+            </ul>
+          </div>
+
+          <div class="colunafooter categoriasfooter">
+            <h3>Categorias</h3>
+            <ul>
+              <li><a href="#">Camisetas</a></li>
+              <li><a href="#">Calças</a></li>
+              <li><a href="#">Bonés</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Headphones</a></li>
+              <li><a href="#">Tênis</a></li>
+            </ul>
+          </div>
+
+          <div class="colunafooter contatofooter">
+            <h3>Contato</h3>
+            <p>Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</p>
+            <p>(85) 3051-3411</p>
+          </div>
+        </div>
+
+        <div class="copyrightfooter">
+          <p>© 2026 Digital College</p>
         </div>
       </div>
-      <div class="Contato">
-            <span class="CategoriasContato">Contato</span>
-            <p>Av. Santos Dumont, 1510 - 1 andar </p>
-            <p>- Aldeota, Fortaleza - CE, 60150-161</p>
-
-
-          </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
