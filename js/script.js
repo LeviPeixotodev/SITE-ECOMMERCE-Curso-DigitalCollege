@@ -5,10 +5,10 @@ let olho=document.querySelector('#olho')
 function ver_senha(){
     if (input.type === 'password') {
         input.type='text'
-        olho.src = 'versenha.svg'
+        olho.src = './assets/icons/versenha.svg'
     }else{
         input.type = 'password'
-        olho.src='naoversenha.svg'
+        olho.src='./assets/icons/naoversenha.svg'
     }
 }
 

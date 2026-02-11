@@ -33,8 +33,14 @@ O foco principal deste projeto é a aplicação prática de conceitos fundamenta
 * **Manipulação de Ativos:** Organização e otimização de imagens e ícones em formato SVG e PNG.
 
 ## 📂 Como Executar o Projeto
+# Opçao A
+Abrir no github sites:
 
+# Opçao B
 1. Clone o repositório
 2. Abra o arquivo index.html no navegador
 
+- GitHub: [@LeviPeixotodev](https://github.com/LeviPeixotodev)
+- LinkedIn: [@LeviPeixoto](https://www.linkedin.com/in/levi-peixoto/) 
+- Email: levipeixoto.dev@gmail.com 
 
